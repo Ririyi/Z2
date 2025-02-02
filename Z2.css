@@ -1,0 +1,184 @@
+html,
+body {
+
+    /* background-image: url('99px_ru_wallpaper_346173_raiden_shogun__segun_rajden_iz_igri_genshin.png'); */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 15px;
+    font-family: Century Gothic;
+}
+
+
+header {
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    /*padding-top: 10px;*/
+    background-color: rgb(95, 90, 180);
+    box-shadow: 0px 0px 15px rgba(48, 41, 140, 0.6);
+
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: rgb(61, 74, 160);
+}
+
+.cap {
+    /*background-color: blue;*/
+    margin: 0 auto;
+    width: 920px;
+    height: 100px;
+}
+
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 120px;
+    /*background-color: red;*/
+}
+
+#name-header {
+    color: rgb(35, 18, 77);
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 50px;
+    /*margin-top: 40px;*/
+    /*background-color: red;*/
+
+}
+
+nav {
+    font-weight: bold;
+    display: block;
+    width: 960px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: rgb(53, 46, 125);
+    margin-right: 50px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #573d97;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #573ea2;
+    /*text-decoration: none;*/
+}
+
+.content {
+    margin: 0 auto;
+    width: 960px;
+    font-size: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #553d90;
+}
+
+a:hover {
+    color: rgb(56, 48, 123);
+}
+
+.tab {
+    width: 960px;
+    margin: 0 auto;
+}
+
+table {
+    color: rgb(54, 45, 121);
+    padding: 15px;
+    box-shadow: 0px 0px 15px rgba(101, 92, 190, 0.6);
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+td {
+    padding: 10px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 960px;
+}
+
+form {
+    color: rgb(93, 64, 167);
+    margin: 0 auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 15px rgba(115, 107, 189, 0.6);
+}
+
+footer {
+    margin-top: 50px;
+    background-color: rgb(125, 118, 193);
+    padding-left: 20px;
+    height: 60px;
+    padding-top: 50px;
+    box-shadow: 0px 0px 15px rgba(147, 118, 178, 0.6);
+}
+
+input {
+    font-family: Century Gothic;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+input:hover {
+    font-family: Century Gothic;
+    background-color: transparent;
+    border: 2px solid #663f9a;
+}
+
+select {
+    padding: 10px;
+    font-family: Century Gothic;
+    background-color: transparent;
+    border: 2px solid transparent;
+    height: 80px;
+}
+
+textarea {
+    padding: 10px;
+    font-family: Century Gothic;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+#bot {
+    color: rgb(102, 74, 141);
+    margin-top: 10px;
+    font-family: Century Gothic;
+    background-color: transparent;
+    border: 2px solid rgb(102, 78, 143);
+}
+
+#bot:hover {
+    color: #60398e;
+    margin-top: 10px;
+    font-family: Century Gothic;
+    background-color: transparent;
+    border: 2px solid #9e5aad;
+}
+
+footer {
+    padding-left: 50px;
+    color: rgb(99, 74, 146);
+    font-weight: bold;
+}
